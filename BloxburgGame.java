@@ -38,4 +38,5 @@ public class BloxburgGame {
         System.out.println();
 
         pizzaPlace.displayEmployees();
+    }
 }
