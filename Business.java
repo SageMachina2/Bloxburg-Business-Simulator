@@ -55,6 +55,18 @@ class Business {
         return funds;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setOwner(String owner) {
+        this.owner = owner;
+    }
+
+    public void setFunds(double funds) {
+        this.funds = funds;
+    }
+
     public static int getTotalBusinesses() {
         return totalBusinesses;
     }
