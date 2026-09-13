@@ -38,5 +38,14 @@ public class BloxburgGame {
         System.out.println();
 
         pizzaPlace.displayEmployees();
+
+        System.out.println();
+
+        pizzaPlace.paySalaries(8);
+
+        System.out.println(
+            "Funds after paying employees: $"
+            + pizzaPlace.getFunds()
+        );
     }
 }
